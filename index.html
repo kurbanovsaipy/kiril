@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туричтическое агенство</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/splider/splide.min.css">
+    <script src="JS/script.js" defer></script>
+    <script src="JS/splider/splide.min.js" defer></script>
+    <script src="JS/splider/tour_splider.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container head">
+            <div class="main_logo">
+                LOGO
+            </div>
+            <nav class="navigation">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="tour.html">Туры</a>
+                <a href="blog.html">Блог</a>
+                <a href="contact.html">Контакты</a>
+            </nav>
+            <div class="profile">
+                <a href="profile.html" class="icon_profile"></a>
+                <button>Связаться</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="head_block">
+        <img src="images/river.jpg" alt="">
+        <h2>Найди свой тур</h2>
+        <div class="container">
+            <form class="search_block">
+                <div class="seacrh_item">
+                    <span class="label icon_plane">Город вылета</span>
+                    <select name="" id="">
+                        <option value="">Выберите город</option>
+                        <option value="">Астрахань</option>
+                        <option value="">Омск</option>
+                    </select>
+                </div>
+                <div class="seacrh_item">
+                    <span class="label icon_planet">Страна</span>
+                    <select name="" id="">
+                        <option value="">Выберите страну</option>
+                        <option value="">Турция</option>
+                        <option value="">Польша</option>
+                    </select>
+                </div>
+                <div class="seacrh_item">
+                    <span class="label icon_time">Продолжительность</span>
+                    <select name="" id="">
+                        <option value="">Выберите время</option>
+                        <option value="">1 день</option>
+                        <option value="">2 дня</option>
+                        <option value="">Неделя</option>
+                        <option value="">Месяц</option>
+                    </select>
+                </div>
+                <div class="seacrh_item">
+                    <span class="label icon_calendar">Дата вылета</span>
+                    <input type="date">
+                </div>
+                <button>Найти тур</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main_description_block">
+        <div class="container description">
+            <div class="description_content">
+                <h1 class="title">Туричтическое агентсво "Путешествие в мечту"</h1>
+                <p>Туристическое агентство предлагает широкий спектр услуг по организации отдыха, путешествий и деловых поездок. Мы помогаем клиентам найти и забронировать идеальные варианты размещения, предоставляем трансферы из аэропортов и организуем экскурсии по местным достопримечательностям. С нами ваше путешествие будет ярким и незабываемым!</p>
+                <h3>Наши преимущества:</h3>
+                <ul>
+                    <li>Большой выбор направлений</li>
+                    <li>Удобство и экономия времени</li>
+                    <li>Профессиональные консультации</li>
+                    <li>Специальные предложения и скидки</li>
+                </ul>
+            </div>
+            <div class="description_image">
+                <img src="images/river.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="tour_block">
+        <div class="container tour">
+            <h2 class="title">Ближайшие туры</h2>
+            <section class="tour_splider splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                                <div class="tour_image">
+                                    <img src="images/river.jpg" alt="">
+                                </div>
+                                <div class="tour_card_description">
+                                    <a href="">Россия</a>
+                                    <div class="tour_card_info">
+                                        <div class="tour_date icon_calendar">01.03.2025</div>
+                                        <div class="price icon_money">5000 руб.</div>
+                                    </div>
+                                    <button>Купить билеты</button>
+                                </div>
+                          </li>
+                          <li class="splide__slide">
+                                <div class="tour_image">
+                                    <img src="images/turc.jpg" alt="">
+                                </div>
+                                <div class="tour_card_description">
+                                    <a href="">Турция</a>
+                                    <div class="tour_card_info">
+                                        <div class="tour_date icon_calendar">01.03.2025</div>
+                                        <div class="price icon_money">5000 руб.</div>
+                                    </div>
+                                    <button>Купить билеты</button>
+                                </div>
+                          </li>
+                          <li class="splide__slide">
+                                <div class="tour_image">
+                                    <img src="images/china.jpg" alt="">
+                                </div>
+                                <div class="tour_card_description">
+                                    <a href="">Китай</a>
+                                    <div class="tour_card_info">
+                                        <div class="tour_date icon_calendar">01.03.2025</div>
+                                        <div class="price icon_money">5000 руб.</div>
+                                    </div>
+                                    <button>Купить билеты</button>
+                                </div>
+                          </li>
+                          <li class="splide__slide">
+                            <div class="tour_image">
+                                <img src="images/japan.jpg" alt="">
+                            </div>
+                            <div class="tour_card_description">
+                                <a href="">Япония</a>
+                                <div class="tour_card_info">
+                                    <div class="tour_date icon_calendar">01.03.2025</div>
+                                    <div class="price icon_money">5000 руб.</div>
+                                </div>
+                                <button>Купить билеты</button>
+                            </div>
+                      </li>
+                      <li class="splide__slide">
+                            <div class="tour_image">
+                                <img src="images/africa.jpg" alt="">
+                            </div>
+                            <div class="tour_card_description">
+                                <a href="">Африка</a>
+                                <div class="tour_card_info">
+                                    <div class="tour_date icon_calendar">01.03.2025</div>
+                                    <div class="price icon_money">5000 руб.</div>
+                                </div>
+                                <button>Купить билеты</button>
+                            </div>
+                      </li>
+                      <li class="splide__slide">
+                            <div class="tour_image">
+                                <img src="images/china.jpg" alt="">
+                            </div>
+                            <div class="tour_card_description">
+                                <a href="">Китай</a>
+                                <div class="tour_card_info">
+                                    <div class="tour_date icon_calendar">01.03.2025</div>
+                                    <div class="price icon_money">5000 руб.</div>
+                                </div>
+                                <button>Купить билеты</button>
+                            </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="tour_image">
+                            <img src="images/river.jpg" alt="">
+                        </div>
+                        <div class="tour_card_description">
+                            <a href="">Россия</a>
+                            <div class="tour_card_info">
+                                <div class="tour_date icon_calendar">01.03.2025</div>
+                                <div class="price icon_money">5000 руб.</div>
+                            </div>
+                            <button>Купить билеты</button>
+                        </div>
+                  </li>
+                  <li class="splide__slide">
+                        <div class="tour_image">
+                            <img src="images/turc.jpg" alt="">
+                        </div>
+                        <div class="tour_card_description">
+                            <a href="">Турция</a>
+                            <div class="tour_card_info">
+                                <div class="tour_date icon_calendar">01.03.2025</div>
+                                <div class="price icon_money">5000 руб.</div>
+                            </div>
+                            <button>Купить билеты</button>
+                        </div>
+                  </li>
+                  <li class="splide__slide">
+                        <div class="tour_image">
+                            <img src="images/china.jpg" alt="">
+                        </div>
+                        <div class="tour_card_description">
+                            <a href="">Китай</a>
+                            <div class="tour_card_info">
+                                <div class="tour_date icon_calendar">01.03.2025</div>
+                                <div class="price icon_money">5000 руб.</div>
+                            </div>
+                            <button>Купить билеты</button>
+                        </div>
+                  </li>
+                      </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="tour_instruction_block">
+        <div class="container">
+            <h2 class="title">Как забронировать тур?</h2>
+            <div class="tour_instruction_grid">
+                <div class="tour_instruction_item">
+                    <div class="icon_planet"></div>
+                    <p>Выбрать параметры вашего путешествия</p></div>
+                <div class="tour_instruction_item">
+                    <div class="icon_plane"></div>
+                    <p>Выбрать тур и оформить заказ</p></div>
+                <div class="tour_instruction_item">
+                    <div class="icon_money"></div>
+                    <p>Оплатить тур онлайн или в агентстве</p></div>
+                <div class="tour_instruction_item">
+                    <div class="icon_documents"></div>
+                    <p>Получить подтверждение брони и комплект документов</p></div>
+                <div class="tour_instruction_item">
+                    <div class="icon_bag"></div>
+                    <p>Собрать чемодан и насладиться отдыхом</p></div>
+                <div class="tour_instruction_item order">
+                    <p>Оформите заявку уже сейчас, это удобно!</p>
+                    <button>Оформить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts_block">
+        <div class="container">
+            <h1 class="title">Как с нами связаться?</h1>
+            <div class="contact_flex">
+                <div class="contact_item">
+                    <div class="icon_phone"></div>
+                    <a href="tel:8 900 000 0000">8 900 000 0000</a>
+                </div>
+                <div class="contact_item">
+                    <div class="icon_mail"></div>
+                    <a href="mailto:xolodovc@mail.ru">xolodovc@mail.ru</a>
+                </div>
+                <div class="contact_item">
+                    <div class="icon_location"></div>
+                    <p>Мелик-Карамова 0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer_block">
+                <div class="footer_contacts">
+                    <div class="main_logo">
+                        LOGO
+                    </div>
+                    <div class="footer_contacts_item">
+                        <div class="icon_phone"></div>
+                        <a href="tel:8 900 000 0000">8 900 000 0000</a>
+                    </div>
+                    <div class="footer_contacts_item">
+                        <div class="icon_mail"></div>
+                        <a href="mailto:xolodovc@mail.ru">xolodovc@mail.ru</a>
+                    </div>
+                    <div class="footer_contacts_item">
+                        <div class="icon_location"></div>
+                        <p>Мелик-Карамова 0</p>
+                    </div>
+                </div>
+                <div class="footer_nav">
+                    <div class="footer_nav_item">
+                        <h4 class="footer_nav_title">Подбор тура</h4>
+                        <a href="">Горящие туры</a>
+                        <a href="">Минимальные цены</a>
+                        <a href="">Страны</a>
+                    </div>
+                    <div class="footer_nav_item">
+                        <h4 class="footer_nav_title">Наши услуги</h4>
+                        <a href="">Авиабилеты</a>
+                        <a href="">Круизы</a>
+                        <a href="">Визы</a>
+                    </div>
+                    <div class="footer_nav_item">
+                        <h4 class="footer_nav_title">О компании</h4>
+                        <a href="">О нас</a>
+                        <a href="">Команда</a>
+                        <a href="">Сертификаты/Дипломы</a>
+                    </div>
+                    <div class="footer_nav_item">
+                        <h4 class="footer_nav_title">Контакты</h4>
+                    </div>
+                </div>
+            </div>
+            <p class="copiryght">(C) 2024 "Семь чудес" - Туристическое агентство</p>
+            <p class="copiryght">Предложения на сайте не являются публичной офертой и носят исключительно информационный характер</p>
+            <p class="copiryght">Положение об обработке персональных данных</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        document.ondragstart = noselect;
+        document.onselectstart = noselect;
+        document.oncontextmenu = noselect;
+        function noselect() {
+            return false;
+        }
+    </script>
+</body>
+</html>
